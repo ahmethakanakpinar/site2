@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid background-color-green">
+            <nav class="navbar navbar-expand-lg py-0">
+                <div class="container ">
+                    <div class="col-4 justify-content-start collapse navbar-collapse " id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown bord">
+                                <a class="nav-link dropdown-toggle text-white border-start" href="#" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ENGLISH
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="home">
+                                <a class="dropdown-item" href="#">Deutsch</a>
+                                <a class="dropdown-item" href="#">French</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white border-start"  href="#" id="pages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                COUNTRY
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="pages">
+                                <a class="dropdown-item" href="#">United States(USD)</a>
+                                <a class="dropdown-item" href="#">Deutschland(EUR)</a>
+                                <a class="dropdown-item" href="#">Japan(JPY)</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown nav-link text-white border-start">FREE SHIPPING FOR ALL ORDERS OF $150</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                    
+                            <div class=" mx-0  ">
+                                <div class="navbar-nav">
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                <div class="navbar-nav justify-content-end">
+                                    <a class="nav-link text-white border-start" href="#"><i class="fa-regular fa-envelope me-2"></i>NEWSLETTER</a>
+                                    <a class="nav-link text-white border-start" href="#">CONTACT US</a>
+                                    <a class="nav-link text-white border-start border-end" href="#">FAQS</a>
+                                </div>
+                            </div>
+                            </div>
+    
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container ">
+                        <a class="col-sm-2 col-8 navbar-brand py-4 order-2 order-lg-1" href="#"><img class="img-fluid" src="./images/wood-logo-dark.svg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <form class="col-7 justify-content-center d-flex px-5 d-none d-sm-flex order-lg-2" role="search">
+                            <input class="form-control form-control-lg  rounded-0 " type="search" placeholder="Search for products" aria-label="Search">
+                            <button class="btn btn-outline-success rounded-0" type="submit">Search</button>
+                        </form>
+                        <div class="justify-content-end collapse navbar-collapse order-lg-3" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">LOGIN/REGISTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-tags"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ">$0.00</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-white py-0 border-light border-bottom d-none d-lg-flex">
+                <div class="container ">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item background-color-green">
+                            <a class="nav-link text-white p-3" style="padding-right: 6px!important;" href="#"><i class="fa-solid fa-bars me-2"></i>BROWSE CATEGORIES<i class="fa-solid fa-chevron-down ms-3"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color-green p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ELEMENTS
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3" href = "#">BUY</a>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link me-0   border-end color-green" href="#">SPECIAL OFFER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-0 " href="#">PURCHASE THEME</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid background-color">
+            <div class="container  ">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="list-group rounded-0 w-75 d-none d-lg-flex">
+                            <ul class="ps-0">
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    
+                                    <a class="col-10 dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/chair-1.svg" alt="">
+                                        Furniture
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/knives-1.svg" alt="">
+                                        Cooking
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/flower-1.svg" alt="">
+                                        Accessories
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/003-shirt.svg" alt="">
+                                        Fashion
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/clock-1.svg" alt="">
+                                        Clocks
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/light-bulb-1.svg" alt="">
+                                        Lighting
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/rocking-horse-1.svg" alt="">
+                                        Toys
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/biscuit.svg" alt="">
+                                        Hand Made
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/002-hand-bag.svg" alt="">
+                                        Minimalism
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/004-game-console.svg" alt="">
+                                        Electronics
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown list-unstyled dropend">
+                                    <a class="dropdown-toggle list-group-item list-group-item-action" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img-fluid col-1" src="./images/break.svg" alt="">
+                                        Cars
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-5">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Eames - <br> Side Chair</h2>
+                                <div>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">COLOR: </li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-circle text-info fa-2x"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-circle text-danger fa-2x"></i></li>
+                                        <li class="list-inline-item"><i class="fa-solid fa-circle text-warning fa-2x"></i></li>
+                                    </ul>
+                                </div>
+                                <p class="lead">Semper vulputate aliquam curae condimentum quisque gravida fusce convallis arcu cum at.</p>
+                                <h3 class="display-lg-6">Only $99.00</h3>
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid" src="./images/slider-main-demo-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="container my-5">
+            <p class="text-muted text-center">WOODMART COLLECTIONS</p>
+            <h4 class="text-center fw-bold">FEATURED CATEGORIES</h4>
+            <p class="text-center">WoodMart is a powerful eCommerce theme for WordPress.</p>
+            <div class="row">
+                <div class="col-lg-6 position-relative ">
+                    <figure class="shadow img-hover-zoom">
+                        <img class="img-fluid" src="./images/cat-23-860x860.jpg" alt="">
+                    </figure>
+                    <h4 class="p-absolute text-center">FURNITURE</h4>
+                    <p class="lead p-absolute design text-center">29 products</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6 position-relative ">
+                            <figure class="shadow img-hover-zoom"><img class="img-fluid" src="./images/cat-klock-430x430.jpg" alt=""></figure>
+                            <h4 class="p-absolute text-center">CLOCKS</h4>
+                            <p class="lead p-absolute design text-center">12 products</p>
+                        </div>
+                        <div class="col-6 position-relative ">
+                            <figure class="shadow img-hover-zoom"><img class="img-fluid" src="./images/cat-clock-3-430x430.jpg" alt=""></figure>
+                            <h4 class="p-absolute text-center">ACCESSORIES</h4>
+                            <p class="lead p-absolute design text-center">12 products</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 position-relative ">
+                            <figure class="shadow img-hover-zoom"><img class="img-fluid" src="./images/light-cat-5-430x430.jpg" alt=""></figure>
+                            <h4 class="p-absolute text-center">LIGHTING</h4>
+                            <p class="lead p-absolute design text-center">17 products</p>
+                        </div>
+                        <div class="col-6 position-relative ">
+                            <figure class="shadow img-hover-zoom"><img class="img-fluid" src="./images/Toys-cat-1-430x430.jpg" alt=""></figure>
+                            <h4 class="p-absolute text-center">TOYS</h4>
+                            <p class="lead p-absolute design text-center">12 products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <p class="text-muted text-center">WOODEN ACCESSORIES</p>
+            <h4 class="text-center fw-bold">FEATURED PRODUCTS</h4>
+            <p class="text-center">Visit our shop to see amazing creations from our designers.</p>
+            <div class="row">
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-furniture-4-2.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-furniture-4-3.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-accessories-8-430x491.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-accessories-8-1-430x491.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-furniture-19-3.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-furniture-19.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-accessories-10.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-accessories-10-2.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                   
+                </div>
+            <div class="row">
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-furniture-11.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-furniture-11-3.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/dock-black-walnut-ip6-grid-A4_7.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/dock-black-walnut-ip6-grid-B1_1.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-furniture-14.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-furniture-14-2.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 design-images image-card ">
+                    <figure class=" position-relative">
+                        <img id="imageprimary" class="img-fluid" src="./images/product-furniture-8.jpg" alt="">
+                        <img id="imagesecondary" class="img-fluid designimages" src="./images/product-furniture-8-2.jpg" alt="">
+                        <div class="bg-white position-absolute small-card display-none">
+                            <i class="position-absolute fa-solid fa-circle text-info" style="bottom: 47%;left: 5%;"></i>
+                            <i class="position-absolute fa-solid fa-circle text-dark" style="bottom: 47%;left: 14%;"></i>
+                            <i class="position-absolute fa-solid fa-code-compare text-dark" style="bottom: 47%;right: 14%;"></i>
+                            <hr class="position-absolute" style="bottom: 0; width: 100%;">
+                        </div>
+                    </figure>
+                    <p class="py-3 px-2 position-absolute background-color-green text-white rounded-circle" style="top: 0%">SALE</p>
+                    <h4 class="text-center">Wooden single drawer</h4>
+                    <p class="lead design text-center">Furniture</p>
+                    <p class="color-green text-center">$249.00-$399.00</p>
+                    <p class="lead display-none">Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.</p>
+                    <div class="row justify-content-center  display-none">
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class= "fa-regular fa-heart "></i></a>
+                        <button class="col-6 btn background-color-green text-white">VIEW PRODUCTS</button>
+                        <a href="#" class="col-2 text-center mx-auto d-block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                    
+                </div>
+        </div>
+        <div class="container-fluid background-color-green">
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-4">
+                    <figure>
+                        <img class="img-fluid" src="./images/chair-new-shadow-opt-4.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-4 text-white">
+                    <h4>PRODUCT LANDING PAGE</h4>
+                    <h2 class="h2-size" style="padding-bottom: 20px;">Vitra Chair - <br> Classic Design.</h2>
+                    <div class="row mb-4 mb-lg-0">
+                        <div class="col-4"><h5>DESIGNER</h5><hr><p class="lead fst-italic" style="font-size: 16px;">Charles, Ray Eames</p></div>
+                        <div class="col-4"><h5>MATERIALS</h5><hr><p class="lead fst-italic" style="font-size: 16px;">Wood, Leather, Metal</p></div>
+                        <div class="col-4"><h5>CLIENT</h5><hr><p class="lead fst-italic" style="font-size: 16px;">Woodmart, Basel</p></div>
+                    </div>
+                    <div class="row">
+                        <h3 class="col-4">$1999.00</h3>
+                        <button type="button" class="col-4 btn btn-outline-light rounded-0">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid background-image position-relative">
+            <div class="container">
+                <div class="row p-absolute" style="top:30%">
+                    <div class="col-lg-6 pt-5 pt-lg-0">
+                        <p class="text-muted d-none d-lg-inline-block">ALL-IN-ONE ECOMMERCE SOLUTION</p>
+                        <h4>WoodMart - WooCommerce Theme</h4>
+                        <p>WoodMart WooCommerce theme for WordPress is the only thing you need to create your perfect online store. Use it for any kind of website: business, corporate, retail, multivendors.</p>
+                        <button type="button" class="btn btn-success rounded-0 ">READ MORE</button>
+                        <button type="button" class="btn btn-outline-secondary rounded-0 text-dark">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    
+        <div class="container-fluid background-image2 border-top border-bottom my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold text-center">JOIN OUR NEWSLETTER NOW</h5>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-0" type="search" placeholder="Your email adress" aria-label="Search">
+                        <button class="btn btn-success rounded-0" type="submit" style="width: 40%;">SIGN UP</button>
+                    </form>
+                    <p class="text-center">Will be used in accordance with our <strong>Privacy Policy</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <p class="text-muted text-center">FURNITURE GUIDES</p>
+            <h4 class="text-center fw-bold">OUR LATEST NEWS</h4>
+            <p class="text-center">Latest trends and inspiration in interior design.</p>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-4">
+                    <div class="card">
+                        <figure class="position-relative">
+                            <img src="images/blog-grid-9-388x273.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="position-absolute bg-white py-1 px-3" style="top: 2%; left: 2%;">
+                                <span class="d-block" style="font-size: 25px">23</span>
+                                <span class="d-block" style="font-size: 15px;">JUL</span>
+                            </div>
+                        </figure>
+                        <div class="card-body position-relative">
+                            <div class="text-center position-absolute" style="top: -30px; left: 85px;">
+                                <a href="#" class="text-decoration-none background-color-green text-white px-2 py-1">DESIGN TRENDS, FURNITURE</a>
+                            </div>
+                          <h5 class="card-title text-center">Seating collection inspiration</h5>
+                          <div class="row justify-content-center align-items-center">
+                            <div class="col-3 p-0 text-muted text-end d-none d-lg-inline-block">Posted by</div>
+                            <div class="col-1 p-0"><img class="img-fluid rounded-circle  mx-auto d-block" src="./images/avatar-home.jpg" alt=""></div>
+                            <div class="col-3 p-0" style="width: 18%;">S.Rogers</div>
+                            <div class="col-1 p-0 ms-3 ms-lg-0"><i class="fa-regular fa-comment"></i></div>
+                            <div class="col-1 p-0 d-none d-lg-inline-block"><i class="fa-solid fa-share-nodes"></i></div>
+                        </div>
+                          <p class="card-text text-center">
+                            Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a ...</p>
+                          <a href="#" class="btn btn-outline-success border-0 col-12 justify-content-center">CONTINUE READING</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-4">
+                    <div class="card">
+                        <figure class="position-relative">
+                            <img src="images/blog-grid-13-388x273.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="position-absolute bg-white py-1 px-3" style="top: 2%; left: 2%;">
+                                <span class="d-block" style="font-size: 25px">23</span>
+                                <span class="d-block" style="font-size: 15px;">JUL</span>
+                            </div>
+                        </figure>
+                        <div class="card-body position-relative">
+                            <div class="text-center position-absolute" style="top: -30px; left: 85px;">
+                                <a href="#" class="text-decoration-none background-color-green text-white px-2 py-1">DESIGN TRENDS, INSPIRATION</a>
+                            </div>
+                            <h5 class="card-title text-center ">Creative water features and exterior</h5>
+                            
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-3 p-0 text-muted text-end d-none d-lg-inline-block">Posted by</div>
+                                    <div class="col-1 p-0"><img class="img-fluid rounded-circle  mx-auto d-block" src="./images/avatar-home.jpg" alt=""></div>
+                                    <div class="col-3 p-0" style="width: 18%;">S.Rogers</div>
+                                    <div class="col-1 p-0 ms-3 ms-lg-0"><i class="fa-regular fa-comment"></i></div>
+                                    <div class="col-1 p-0 d-none d-lg-inline-block"><i class="fa-solid fa-share-nodes"></i></div>
+                                </div>
+                       
+                          <p class="card-text text-center">
+                            Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a ...</p>
+                          <a href="#" class="btn btn-outline-success border-0 col-12 justify-content-center">CONTINUE READING</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card">
+                        <figure class="position-relative">
+                            <img src="images/blog-grid-12-388x273.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="position-absolute bg-white py-1 px-3" style="top: 2%; left: 2%;">
+                                <span class="d-block" style="font-size: 25px">23</span>
+                                <span class="d-block" style="font-size: 15px;">JUL</span>
+                            </div>
+                        </figure>
+                        <div class="card-body position-relative">
+                            <div class="text-center position-absolute" style="top: -30px; left: 85px;">
+                                <a href="#" class="text-decoration-none background-color-green text-white px-2 py-1">DESIGN TRENDS, FURNITURE</a>
+                            </div>
+                          <h5 class="card-title text-center">Seating collection inspiration</h5>
+                          <div class="row justify-content-center align-items-center">
+                            <div class="col-3 p-0 text-muted text-end d-none d-lg-inline-block">Posted by</div>
+                            <div class="col-1 p-0"><img class="img-fluid rounded-circle  mx-auto d-block" src="./images/avatar-home.jpg" alt=""></div>
+                            <div class="col-3 p-0" style="width: 18%;">S.Rogers</div>
+                            <div class="col-1 p-0  ms-3 ms-lg-0"><i class="fa-regular fa-comment"></i></div>
+                            <div class="col-1 p-0 d-none d-lg-inline-block"><i class="fa-solid fa-share-nodes"></i></div>
+                        </div>
+                          <p class="card-text text-center">
+                            Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a ...</p>
+                          <a href="#" class="btn btn-outline-success border-0 col-12 justify-content-center">CONTINUE READING</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <i class="col-1  fa-solid fa-chevron-left fa-2x align-items-center logo-hover" style="width:5%"></i>
+                <div class="col-lg-2 col-6 logo-size"><figure class="img-hover"><img class="img-fluid" src="./images/brand-witra.png.webp" alt=""></figure></div>
+                <div class="col-lg-2 col-6 logo-size"><figure class="img-hover"><img class="img-fluid" src="./images/brand-Rosenthal.png" alt=""></figure></div>
+                <div class="col-lg-2 col-6 logo-size" ><figure class="img-hover"><img class="img-fluid" src="./images/brand-PackIt.png.webp" alt=""></figure></div>
+                <div class="col-lg-2 col-6 logo-size" ><figure class="img-hover"><img class="img-fluid" src="./images/nichemodern.png" alt=""></figure></div>
+                <div class="col-lg-2 col-6 logo-size" ><figure class="img-hover"><img class="img-fluid" src="./images/brand-Magisso.png" alt=""></figure></div>
+                <div class="col-lg-2 col-6 logo-size" ><figure class="img-hover"><img class="img-fluid" src="./images/brand-Louis-Poulsen.png" alt=""></figure></div>
+                <i class="col-1  fa-solid fa-chevron-right fa-2x text-end align-items-center logo-hover" style="width:5%"></i>
+            </div>
+        </div>
+        <div class="container-fluid background-color mb-5  d-none d-lg-flex">
+            <div class="container my-5">
+                <div class="row align-items-center">
+                    <div class="col-3 my-5">
+                        <p class="text-muted text-center">PREBUILT LAYOUTS</p>
+                        <h4 class="text-center">WOODMART DEMOS</h4>
+                        <p class="text-center">High-quality demos and layouts.</p>
+                        <a href="#" class="text-decoration-none text-dark text-decoration-underline justify-content-center d-block text-center" style="text-decoration-color: green!important;">VIEW ALL</a>
+                    </div>
+                    <div class="col-9 my-5">
+                        <div class="row justify-content-center align-items-center">
+                            <i class="col-2  fa-solid fa-chevron-left fa-2x align-items-center logo-hover" style="width:2%"></i>
+                            <div class="col-2 " style="width: 23%;"><img class="img-fluid" src="./images/retail-demos-opt.jpg" alt=""></div>
+                            <div class="col-2 " style="width: 23%;"><img class="img-fluid" src="./images/books-demos-opt-2.jpg" alt=""></div>
+                            <div class="col-2 " style="width: 23%;"><img class="img-fluid" src="./images/handmade-demos.jpg" alt=""></div>
+                            <div class="col-2 " style="width: 23%;"><img class="img-fluid" src="./images/travel-demos.jpg" alt=""></div>
+                            <i class="col-2  fa-solid fa-chevron-right fa-2x text-end align-items-center logo-hover" style="width:2%"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <figure><img class = "img-fluid" src="./images/wood-logo-dark.svg" alt=""></figure>
+                    <p>Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-location-arrow me-2"></i>451 Wall Street, UK, London</li>
+                        <li><i class="fa-solid fa-mobile-screen-button me-2"></i>Phone: (064) 332-1233</li>
+                        <li><i class="fa-regular fa-envelope me-2"></i>Fax: (099) 453-1357</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="">RECENT POSTS</h5>
+                    <div class="row">
+                        <div class="col-lg-4"><figure><img class="img-fluid" src="./images/blog-12-75x65.jpg" alt=""></figure></div>
+                        <div class="col-lg-8">
+                            <a class = "text-decoration-none text-dark" href="#">A companion for extra sleeping</a>
+                            <p class="text-muted">July 23, 2016 <span class="">1 Comment</span></p>
+                        </div>
+                    </div>
+                    <hr >
+                    <div class="row">
+                        <div class="col-lg-4"><figure><img class="img-fluid" src="./images/blog-11-75x65.jpg" alt=""></figure></div>
+                        <div class="col-lg-8">
+                            <a class = "text-decoration-none text-dark" href="#">Outdoor seating collection inspiration</a>
+                            <p class="text-muted">July 23, 2016 <span class="">1 Comment</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="">OUR STORES</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">New York</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">London SF</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Cockfosters BP</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Los Angeles</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Chicago</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Las Vegas</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="">USEFUL LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Privacy Policy</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Returns</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Terms & Conditions</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Contact Us</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Latest News</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Our Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="">FOOTER MENU</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Instagram profile</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">New Collection</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Woman Dress</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Contact Us</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Latest News</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-muted" href="#">Purchase Theme</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-7">
+                    <a href="#" class="text-decoration-none text-dark" style="font-size:12px"><strong>WOODMART</strong> © 2023 CREATED BY <strong><span class="text-danger"> X</span>TEMOS STUDIO.</strong> PREMIUM E-COMMERCE SOLUTIONS.</a>
+                </div>
+                <div class="col-lg-5 text-end">
+                    <img src="./images/payments.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
