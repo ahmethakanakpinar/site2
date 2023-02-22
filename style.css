@@ -57,8 +57,19 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1.5rem;
-    background-color: white;
+    /* background-color: white;
+    box-shadow: 0 0 10px rgb(204 204 204 / 80%); */
+}
+.design-images:hover.image-card .new
+{
+      background-color: white;
     box-shadow: 0 0 10px rgb(204 204 204 / 80%);
+    width: 341px;
+    height: 750px;
+    padding: 31px;
+    margin: -25px;
+    position: absolute;
+    z-index: 5;
 }
 .design-images:hover .display-none
 {
@@ -105,6 +116,26 @@
     height: 248px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.background-image3
+{
+    background-image: url(./images/menu-categories-fr-6.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 930px;
+}
+.background-image4
+{
+    background-image: url(./images/cat-menu-bg-1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 800px;
+    float: right;
+    background-position-x:right;
 }
 .img-hover
 {
@@ -199,4 +230,32 @@
     {
         display: block;
     }
+}
+.transparent
+{
+    background-color: transparent;
+    border: 0;
+    
+}
+.dropdown-menu-bottom
+{
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+    width: max-content;
+    /* height: 580px; */
+    height: max-content;
+    left: -245px!important;
+    text-align: center;
+}
+.dropdown-menu-end
+{
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+    width: max-content;
+    /* height: 580px; */
+    height: max-content;
+    
+    text-align: center;
 }
