@@ -183,6 +183,18 @@
         bottom: 2%;
         left: 7%;
     }
+    .menu-left-hover:hover .menu-left-item-hover
+    {
+        position: absolute;
+        display: block;
+        left: 22.5%!important;
+        top: 0;
+    }
+    .menu-left-item-hover
+    {
+        display: none;
+    }
+
 }
 @media (max-width: 768px)
 {
@@ -227,6 +239,16 @@
     .design
     {
         display: block;
+    }
+}
+@media (min-width: 1900px)
+{
+    .menu-left-hover:hover .menu-left-item-hover
+    {
+        position: absolute;
+        display: block;
+        left: 28%!important;
+        top: 0;
     }
 }
 .transparent
@@ -295,5 +317,26 @@
 #slider-3
 {
     /* display: flex; */
+    display: none;
+}
+.dropend .dropdown-toggle::after
+{
+    position: absolute;
+    right: 13px;
+    top: 17px;
+}
+.menu-hover:hover .menu-item-hover
+{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    background-color: white;
+    left: 0;
+    top: 56px;
+    height: max-content;
+    width: 100%;
+}
+.menu-item-hover
+{
     display: none;
 }
